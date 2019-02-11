@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Yu-Gi-Oh Game Simulator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="Back-EndYGO.js">
+
+    </script>
+    <style >
+
+        .well {
+            background-color: rgb(196, 163, 153);
+            width: 48.5%;
+            height: 425px;
+        }
+
+        header {
+            text-align: center;
+        }
+
+    </style>
+  </head>
+
+  <body style = "background-color:orange;">
+      <br>
+      <header>
+        <img width="150" height="75" src="images/Yu-Gi-OhLogo.png" alt="Yugioh logo">
+      </header>
+
+    <br><br><br>
+    <center id="top">
+
+        <form id="start">
+
+            <button type="button" onclick="gameStart()">Start Duel !</button>
+
+        </form>
+
+    </center><br><br>
+
+    <div class="container" style="padding-left: 1px; padding-right = 1px;">
+
+        <div id="dueler" style="float: left;">
+
+        </div>
+
+
+        <div id="cpu" style="float: right;">
+
+        </div>
+
+    </div>
+
+    <div id="stats" class="container" style="padding-left: 1px; padding-right = 1px">
+
+        <div id="duelerSpace" style="float: left; padding-right = 10px;">
+          <b><div id="duelerPoints"></div></b>
+            <b><div id="duelerCards"></div></b>
+        </div>
+
+        <div id="cpuSpace" style="float: right; padding-right = 10px;">
+            <b><div id="cpuPoints"></div></b>
+            <b><div id="cpuCards"></div></b>
+        </div>
+
+    </div>
+
+  </body>
+
+</html>
