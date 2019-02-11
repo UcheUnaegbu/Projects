@@ -1,5 +1,12 @@
 "use strict";
 
+/**Duel Monsters card game based off of Television show Yu-Gi-Oh!
+Two duelers battle one another with a deck of Monster cards, each
+having a set amount of attack and defense points. Duelers start
+out with 4000 life points. First player to reach 0 life points
+loses.
+**/
+
 /*Defines a player of the game*/
 function Player() {
 
