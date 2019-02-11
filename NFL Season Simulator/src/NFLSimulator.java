@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**Simulates the NFL season. Schedule will differ
  * from season to season. Additionally, rankings and standings
  * are updated as the Simulator progresses. Rankings and
- * Standings are taken into a consideration when
+ * Standings are taken into consideration when
  * two teams play one another.**/
 public class NFLSimulator {
 
