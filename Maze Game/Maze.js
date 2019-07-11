@@ -209,7 +209,7 @@ window.onload = function () {
             limiterTotal = 5,
             limiterTick = 0,
             // this will time the auto launches of fireworks, one launch per 80 loop ticks
-            timerTotal = 80,
+            timerTotal = 50,
             timerTick = 0,
             mousedown = false,
             // mouse x coordinate,
