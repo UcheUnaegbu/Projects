@@ -1,0 +1,50 @@
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+
+#infoContainer {
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    right: .75%;
+    top: 25%;
+    border-radius: 25px;
+    background: url("blurry.jpg");
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: #ebedf0;
+}
+
+#start {
+    position: fixed;
+    padding-left: 160px;
+    padding-top: 105px;
+    font-size: 200%;
+    color: #ebedf0;
+    font-style: italic;
+}
+
+/*Allow the text to overlay the fireworks effect*/
+#winText {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 500%;
+    color: #00ffff;
+}
+
+/*fireworks effect*/
+#fireworks {
+    cursor: crosshair;
+    display: block;
+}
