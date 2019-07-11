@@ -1,7 +1,7 @@
 var oktaText =
     "Okta <br><br>" +
     "You can access all of your applications " +
-    "by going to datto.okta.com . Some of these " +
+    "by going to datto.okta.com. Some of these " +
     "applications are also discussed at other " +
     "checkpoints within this maze.";
 
@@ -20,7 +20,7 @@ var pingboardText =
 
 var homepoolText =
     "Homepool<br><br>" +
-    "You think it, You search. Homepool contains all of the information " +
+    "You think it, You search it. Homepool contains all of the information " +
     "about the company on it. You can use the search bar to " +
     "find almost anything.";
 
